@@ -1,0 +1,125 @@
+﻿/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif Bengali', serif;
+}
+
+/* Body */
+body {
+    background-color: #f8f9f8;
+    color: #333;
+    line-height: 1.8;
+}
+
+/* Header */
+header {
+    background-color: #f2f7ea;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search button {
+    
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.navVar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+   padding-left: 5%;
+   padding-right: 5%;
+    
+    }
+
+main {
+    padding: 20px;
+    padding-left: 30%;
+}
+
+.content h2 {
+    font-size: 1.8em;
+    
+    margin-bottom: 15px;
+    color: #444;
+}
+nav a.active {
+    font-size: 1.1em;
+    color: #FF5500;
+}
+
+nav a:hover {
+    font-size: 1.2em;
+    color: #FF5500;
+}
+div.menu li.active {
+    font-size: 1.em;
+    color: #FF5500;
+}
+
+div.menu li:hover {
+    font-size: 1.1em;
+    color: #FF5500;
+    
+    
+}
+.content p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.section-title {
+    font-size: 1.5em;
+    color: #6b5b95;
+    margin: 15px 0;
+}
+
+.highlight {
+    font-weight: bold;
+    color: #6b5b95;
+}
+
+ul {
+    margin: 10px 0 20px 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
